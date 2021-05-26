@@ -1,0 +1,182 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+/************************************ INTRO *****************************/
+#intro{
+    width: 100%;
+    height: 100%;
+}
+#img_intro{
+    background-image: url(../img/Woman-working.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 65%;
+    width: 100%;
+    background-color: white;
+    background-size: contain;
+}
+#txt_intro {
+    height: 20%;
+    background: linear-gradient(white, #dbcdfe);
+    color: #0b2e4e;
+}
+nav{
+    background-color: #381f7a;
+    height: 15%;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    border-bottom: 4px solid #381f7a;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #efb226;
+    border-bottom: 4px solid #efb226;
+}
+
+/*********************************** COMPETENCES **********************************/
+#competences {
+    background-color: white;
+    color: #0b2e4e;
+}
+
+#competences .contenu{
+    background-color: white;
+    color: #0b2e4e;
+}
+
+#competences h3{
+    color :white;
+}
+
+.competences_cadre{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #efb226;
+    margin-bottom: 40px;
+}
+
+#competences .logo{
+    width: 60%;
+    height: auto;
+}
+
+/************************************ A PROPOS ***************************************/
+
+#aPropos {
+    background-color: #381f7a;
+    color: white;
+}
+
+#aPropos .contenu{
+    color: gainsboro;
+    background-color: #381f7a;
+    font-size: 1.3em;
+    text-align: start;
+}
+
+#aPropos a{
+    text-decoration:none;
+    color: #efb226;
+}
+
+/*************************************** PROJETS ***********************************/
+
+#projets{
+    background-color: #8071f2;
+    color: white;
+}
+
+#projets .contenu{
+    color: #0b2e4e;
+    font-size: 1.3em;
+    text-align: center;;
+}
+
+/********************************************* CONTACT ***********************************/
+
+#contact{
+    background-color: #381f7a;
+}
+#contact li{
+    list-style-type: none;
+    color: white;
+}
+#contact li a{
+    text-decoration: none;
+    color: white;
+}
+#contact li a:hover{
+    color: #efb226;
+}
+
+/***************************************** FOOTER ******************************/
+
+footer{
+    background-color: #0b2e4e;
+    color: white;
+}
+
+/************************************* AUTRES ************************************/
+.text-align-justify{
+    text-align: justify;
+}
+
+.img_retour_intro{
+    width:55px;
+}
+
+#lien_contact{
+    text-decoration: none;
+    color: #0b2e4e; !important;
+}
+
+/************************************* MEDIA QUERIES *****************************/
+
+@media all and (min-width:0px) and (max-width:767px){
+
+    #txt_intro{font-size:1.6em}
+
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: calc(1rem + 0.2vw) !important;
+    }
+
+    #contenu_image{
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+
+    #txt_intro{font-size:2.8em}
+
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: calc(1.15rem + 0.2vw) !important;
+    }
+
+    #contenu_image{
+        display: block;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media all and (min-width:992px){
+
+    #txt_intro{font-size:3.4em}
+
+    .navbar-dark .navbar-nav .nav-link{
+        font-size: calc(1.3rem + 0.2vw) !important;
+    }
+
+    #contenu_image{
+        width: 100%;
+    }
+}

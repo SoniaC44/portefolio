@@ -6,64 +6,255 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <title>Document</title>
 </head>
-<body class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Présentation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="realisations.html">Réalisations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="CV.html">CV</a>
-                    </li>
-                    <!--
-                   <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>-->
+<body class="container-fluid m-0 p-0">
+    <div id="intro" class="row m-0 p-0">
+        <div id="img_intro" class="row col-sm-12 m-0 p-0"></div>
+        <p id="txt_intro" class="row col-sm-12 d-flex align-items-center justify-content-center m-0 p-0">
+            { Bienvenue, moi c'est Sonia ! }
+        </p>
+        <nav class="row m-0 p-0 navbar navbar-expand navbar-dark">
+            <div class="container-fluid collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#aPropos" class="nav-link">A Propos</a></li>
+                    <li class="nav-item"><a href="#competences" class="nav-link">Compétences</a></li>
+                    <li class="nav-item"><a href="#projets" class="nav-link">Projets</a></li>
                 </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
-    <div class = container mt-5>
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>Bienvenue sur mon portefolio</h1>
+    <div id="aPropos" class="row m-0 py-5 d-flex justify-content-center">
+        <div class="col-12 m-0 py-4 d-flex justify-content-center">
+            <h2 class="col-12 text-center fs-2 m-0 py-4">- A PROPOS -</h2>
+        </div>
+        <div class="contenu col-sm-12 col-md-10 col-lg-8 m-0 p-0 row">
+            <div class="col-sm-12 col-md-12 col-lg-6 m-0 p-0 pb-5 justify-content-center">
+                <img id="contenu_image" src="resources/img/laptog2.png" alt="logo femme avec ordinateur portable">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="text-align-justify">
+                    <p>Après un Titre Professionnel
+                        "Développeur informatique" et une
+                        première expérience en tant que
+                        développeuse C#, j'ai changé de voie
+                        professionnelle afin de dégager du temps
+                        pour élever mes enfants.
+                    </p>
+                    <p>
+                        Aujourd'hui, j'ai pour ambition de
+                        devenir conceptrice développeuse
+                        d'applications.
+                    </p>
+                    <p>
+                        Pour mener à bien ce projet, je suis
+                        entrée en
+                        <a href="https://www.eni-ecole.fr/formation/concepteur-rice-developpeur-euse-dapplications">
+                            formation à l'ENI
+                        </a> en janvier 2021.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row col-10 fs-4 m-2 p-2 mt-4 d-flex justify-content-center text-center" style="background-color: #8071f2; border-radius: 10px;">
+            <p>
+                {{ Je suis actuellement à la recherche d'une entreprise dans le secteur du développement WEB
+                et logiciel pour effectuer mon stage de fin de formation (30/08/2021 - 22/10/2021 soit 280h). }}
+            </p>
+            <p><a id="lien_contact" href="mailto:sonia.chavey@gmail.com?Subject=StageFinFormation"> >> Contact << </a></p>
+        </div>
+        <div class="container-flex row col-12 m-0 p-0 d-flex justify-content-end">
+            <div class="col-2 m-0 p-0 me-3 d-flex justify-content-end">
+                <a href="#intro"><img class="img_retour_intro" src="resources/img/white-arrow.png" alt="revenir à l'intro" ></a>
             </div>
         </div>
     </div>
 
+    <div id="competences" class="row m-0 py-5 d-flex justify-content-center">
+        <div class="col-12 m-0 py-4 d-flex justify-content-center">
+            <h2 class="col-12 text-center fs-2 m-0 py-4">- COMPETENCES -</h2>
+        </div>
+        <div class="contenu col-sm-12 col-md-10 col-lg-8 m-0 p-3 row d-flex justify-content-center" >
+            <div class="row d-flex justify-content-center align-items-center competences_cadre">
+                <h3 class="col-sm-10 col-lg-4 m-0 text-center fs-5 py-2">LANGUAGES</h3>
+                <div class="contenu row col-sm-12 col-lg-8">
+                    <p>ici les languages</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center competences_cadre">
+                <h3 class="col-sm-10 col-lg-4 m-0 text-center fs-5 py-2">PLATEFORMES / FRAMEWORKS</h3>
+                <div class="contenu row col-sm-12 col-lg-8">
+                    <ul class="col-sm-12 col-lg-8 m-0 p-0 ps-4">
+                        <li>Java SE 8 et EE 7 (Tomcat 8.5)</li>
+                        <li>Spring (Core, ORM, Data, MVC, REST)</li>
+                        <li>Symphony 3 (WAMP ou LAMP)</li>
+                        <li>ASP.NET MVC</li>
+                        <li>mobile avec Android 7</li>
+                    </ul>
+                    <ul class="col-sm-12 col-lg-4 my-0 py-0 ps-4">
+                        <li>Bootstrap</li>
+                        <li>JQuery</li>
+                        <li>Xamarin</li>
+                        <li>Ionic</li>
+                    </ul>
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/Tomcat.png" alt="logo Tomcat">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/spring.png" alt="logo spring">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/symfony.png" alt="logo Symfony">
+                        </div>
+                    </div>
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/aspNet.png" alt="logo ASP net">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/Android.jpg" alt="logo Android">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/bootstrap.jpg" alt="logo Bootstrap">
+                        </div>
+                    </div>
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/JQuery.png" alt="logo Jquery">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/Xamarin.png" alt="logo Xamarin">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ionic.png" alt="logo Ionic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center competences_cadre">
+                <h3 class="col-sm-10 col-lg-4 m-0 text-center fs-5 py-2">ORM</h3>
+                <div class="contenu row col-sm-12 col-lg-8">
+                    <ul class="col-sm-12 col-lg-8 m-0 p-0 ps-4">
+                        <li>JPA 2 avec Hibernate 4.x</li>
+                        <li>Entity Framework</li>
+                        <li>Doctrine</li>
+                    </ul>
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/hibernate.png" alt="hibernate" width="40px">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/entity.png" alt="Entity Framework" width="40px">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/doctrine.png" alt="doctrine" width="40px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-flex row col-12 m-0 p-0 d-flex justify-content-end">
+            <div class="col-2 m-0 p-0 me-3 d-flex justify-content-end">
+                <a href="#intro"><img class="img_retour_intro" src="resources/img/yellow-arrow.png" alt="revenir à l'intro" width="55px"></a>
+            </div>
+        </div>
+    </div>
 
+    <div id="projets" class="row m-0 py-5 d-flex justify-content-center">
+        <div class="col-12 m-0 py-4">
+            <h2 class="col-12 text-center fs-2 m-0 py-4">- PROJETS -</h2>
+        </div>
+        <div class="contenu col-sm-12 col-md-10 col-lg-8 m-0 p-3 row">
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center mb-2">
+                <div class="card col-12">
+                    <a href="#" style="text-decoration: none; color: black">
+                        <img src="resources/img/encheres.png" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Site d'enchères</h5>
+                            <p class="card-text">Développement d’un site internet de ventes aux enchères et
+                                d’échanges de biens avec Java EE et SQL Server : application
+                                web organisée en couches.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center mb-2">
+                <div class="card col-12">
+                    <a href="#" style="text-decoration: none; color: black">
+                        <img src="resources/img/sorties.png" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Site de sortie entre élèves</h5>
+                            <p class="card-text">Analyse, conception et développement d’un site internet
+                                d’organisation de sorties entre élèves avec PHP, Symfony et
+                                MySQL.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center mb-2">
+                <div class="card col-12">
+                    <a href="#" style="text-decoration: none; color: black">
+                        <img src="resources/img/portfolio.png" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Mon portfolio</h5>
+                            <p class="card-text">Site web statique en HTML5 CSS3, Bootstrap et JQuery
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center mb-2">
+                <div class="card col-12">
+                    <a href="#" style="text-decoration: none; color: black">
+                        <img src="resources/img/pec.png" class="card-img-top p-2" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projet en cours : CV </h5>
+                            <p class="card-text">Développement d’un site internet pour représenter mon CV .
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
+        </div>
+        <div class="container-flex row col-12 m-0 p-0 d-flex justify-content-end">
+            <div class="col-2 m-0 p-0 me-3 d-flex justify-content-end">
+                <a href="#intro"><img class="img_retour_intro" src="resources/img/white-arrow.png" alt="revenir à l'intro"></a>
+            </div>
+        </div>
+    </div>
 
+    <div id="contact" class="row m-0 py-4 d-flex justify-content-center">
+        <ul class="col-12 m-0 p-0 row">
+            <li class="col-4 d-flex justify-content-center align-items-center">
+                <a href="https://www.linkedin.com/in/sonia-chavey">
+                    <i class="fab fa-linkedin-in fa-2x"></i>
+                </a>
+            </li>
+            <li class="col-4 d-flex justify-content-center align-items-center">
+                <a href="mailto:sonia.chavey@gmail.com?Subject=Hello" class="nav-link">
+                    <i class="fas fa-envelope fa-2x"></i>
+                </a>
+            </li>
+            <li class="col-4 d-flex justify-content-center align-items-center">
+                <a href="https://github.com/SoniaC44">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
 
+    <footer id="footer" class="row m-0 p-0 d-flex align-items-center">
+        <p class="col-12 text-center m-0 py-2">&copy; Copyrigth Sonia CHAVEY - <span id="annees"></span></p>
+    </footer>
+
+    <script src="js/methodes.js"></script>
+    <script src="https://kit.fontawesome.com/eeb1a805df.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
