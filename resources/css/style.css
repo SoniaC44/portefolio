@@ -58,7 +58,6 @@ nav{
     border-radius: 5px;
     padding: 5px;
     background-color: #efb226;
-    margin-bottom: 40px;
 }
 
 #competences .logo{
@@ -85,6 +84,11 @@ nav{
     color: #efb226;
 }
 
+#recherche_stage{
+    background-color: #8071f2;
+    border-radius: 10px;
+}
+
 /*************************************** PROJETS ***********************************/
 
 #projets{
@@ -96,6 +100,11 @@ nav{
     color: #0b2e4e;
     font-size: 1.3em;
     text-align: center;;
+}
+
+.card a{
+    text-decoration: none;
+    color: #0b2e4e;
 }
 
 /********************************************* CONTACT ***********************************/
@@ -146,7 +155,7 @@ footer{
         font-size: calc(1rem + 0.2vw) !important;
     }
 
-    #contenu_image{
+    #aPropos_contenu_image{
         display: block;
         width: 60%;
         margin: auto;
@@ -161,7 +170,7 @@ footer{
         font-size: calc(1.15rem + 0.2vw) !important;
     }
 
-    #contenu_image{
+    #aPropos_contenu_image{
         display: block;
         width: 60%;
         margin: auto;
@@ -176,7 +185,19 @@ footer{
         font-size: calc(1.3rem + 0.2vw) !important;
     }
 
-    #contenu_image{
+    #aPropos_contenu_image{
         width: 100%;
+    }
+
+    #competences .logo{
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media all and (min-width:1200px){
+    #competences .logo{
+        width: 40%;
+        height: auto;
     }
 }

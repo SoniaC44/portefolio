@@ -30,11 +30,11 @@
         <div class="col-12 m-0 py-4 d-flex justify-content-center">
             <h2 class="col-12 text-center fs-2 m-0 py-4">- A PROPOS -</h2>
         </div>
-        <div class="contenu col-sm-12 col-md-10 col-lg-8 m-0 p-0 row">
+        <div class="contenu col-sm-12 col-md-10 col-lg-9 m-0 p-3 row d-flex justify-content-center">
             <div class="col-sm-12 col-md-12 col-lg-6 m-0 p-0 pb-5 justify-content-center">
-                <img id="contenu_image" src="resources/img/laptog2.png" alt="logo femme avec ordinateur portable">
+                <img id="aPropos_contenu_image" src="resources/img/laptog2.png" alt="logo femme avec ordinateur portable">
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-6">
+            <div class="col-sm-12 col-md-12 col-lg-6 d-flex align-items-center">
                 <div class="text-align-justify">
                     <p>Après un Titre Professionnel
                         "Développeur informatique" et une
@@ -49,21 +49,22 @@
                         d'applications.
                     </p>
                     <p>
-                        Pour mener à bien ce projet, je suis
-                        entrée en
-                        <a href="https://www.eni-ecole.fr/formation/concepteur-rice-developpeur-euse-dapplications">
+                        Pour mener à bien ce projet, je suis entrée en
+                        <a href="https://www.eni-ecole.fr/formations/developpement/niveau-6-bac4-concepteur-developpeur-dapplications/">
                             formation à l'ENI
                         </a> en janvier 2021.
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="row col-10 fs-4 m-2 p-2 mt-4 d-flex justify-content-center text-center" style="background-color: #8071f2; border-radius: 10px;">
-            <p>
-                {{ Je suis actuellement à la recherche d'une entreprise dans le secteur du développement WEB
-                et logiciel pour effectuer mon stage de fin de formation (30/08/2021 - 22/10/2021 soit 280h). }}
-            </p>
-            <p><a id="lien_contact" href="mailto:sonia.chavey@gmail.com?Subject=StageFinFormation"> >> Contact << </a></p>
+            <div id="recherche_stage" class="col-12 fs-4 m-0 p-2 mt-4 d-flex justify-content-center text-center row">
+                <p>
+                    {{ Je suis actuellement à la recherche d'une entreprise dans le secteur du développement WEB
+                    et logiciel pour effectuer mon stage de fin de formation (30/08/2021 - 22/10/2021 soit 280h). }}
+                </p>
+                <p>
+                    <a id="lien_contact" href="mailto:sonia.chavey@gmail.com?Subject=StageFinFormation"> >> Contact << </a>
+                </p>
+            </div>
         </div>
         <div class="container-flex row col-12 m-0 p-0 d-flex justify-content-end">
             <div class="col-2 m-0 p-0 me-3 d-flex justify-content-end">
@@ -72,85 +73,142 @@
         </div>
     </div>
 
-    <div id="competences" class="row m-0 py-5 d-flex justify-content-center">
+    <div id="competences" class="row m-0 py-5 pb-3 d-flex justify-content-center">
         <div class="col-12 m-0 py-4 d-flex justify-content-center">
             <h2 class="col-12 text-center fs-2 m-0 py-4">- COMPETENCES -</h2>
         </div>
-        <div class="contenu col-sm-12 col-md-10 col-lg-8 m-0 p-3 row d-flex justify-content-center" >
-            <div class="row d-flex justify-content-center align-items-center competences_cadre">
-                <h3 class="col-sm-10 col-lg-4 m-0 text-center fs-5 py-2">LANGUAGES</h3>
-                <div class="contenu row col-sm-12 col-lg-8">
-                    <p>ici les languages</p>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center competences_cadre">
-                <h3 class="col-sm-10 col-lg-4 m-0 text-center fs-5 py-2">PLATEFORMES / FRAMEWORKS</h3>
-                <div class="contenu row col-sm-12 col-lg-8">
-                    <ul class="col-sm-12 col-lg-8 m-0 p-0 ps-4">
-                        <li>Java SE 8 et EE 7 (Tomcat 8.5)</li>
-                        <li>Spring (Core, ORM, Data, MVC, REST)</li>
-                        <li>Symphony 3 (WAMP ou LAMP)</li>
-                        <li>ASP.NET MVC</li>
-                        <li>mobile avec Android 7</li>
-                    </ul>
-                    <ul class="col-sm-12 col-lg-4 my-0 py-0 ps-4">
-                        <li>Bootstrap</li>
-                        <li>JQuery</li>
-                        <li>Xamarin</li>
-                        <li>Ionic</li>
-                    </ul>
+        <div class="contenu col-sm-12 col-md-10 col-lg-9 m-0 p-3 pb-1 row d-flex justify-content-center">
+            <div class="row d-flex justify-content-center align-items-center competences_cadre mb-4">
+                <h3 class="col-sm-12 col-lg-3 m-0 p-0 text-center fs-5 py-3">LANGUAGES</h3>
+                <div class="contenu row col-sm-12 col-lg-9">
                     <div class="col-12 row m-0 mt-2 p-2">
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/Tomcat.png" alt="logo Tomcat">
+                            <img class="logo" src="resources/img/logos/LANG/HTML5.png" alt="logo HTML5" title="HTML5">
                         </div>
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/spring.png" alt="logo spring">
+                            <img class="logo" src="resources/img/logos/LANG/CSS3.png" alt="logo CSS3" title="CSS3">
                         </div>
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/symfony.png" alt="logo Symfony">
+                            <img class="logo" src="resources/img/logos/LANG/JavaScript.png" alt="logo Javascript" title="Javascript">
                         </div>
                     </div>
                     <div class="col-12 row m-0 mt-2 p-2">
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/aspNet.png" alt="logo ASP net">
+                            <img class="logo" src="resources/img/logos/LANG/Php7.png" alt="logo PHP" title="PHP 7">
                         </div>
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/Android.jpg" alt="logo Android">
+                            <img class="logo" src="resources/img/logos/LANG/Java.png" alt="logo Java" title="Java">
                         </div>
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/bootstrap.jpg" alt="logo Bootstrap">
+                            <img class="logo" src="resources/img/logos/LANG/C_Sharp.png" alt="logo C sharp" title="C# dit C sharp">
                         </div>
                     </div>
                     <div class="col-12 row m-0 mt-2 p-2">
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/JQuery.png" alt="logo Jquery">
+                            <img class="logo" src="resources/img/logos/LANG/SQL.png" alt="logo SQL" title="SQL">
                         </div>
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/Xamarin.png" alt="logo Xamarin">
+                            <img class="logo" src="resources/img/logos/LANG/transact_SQL.png" alt="logo Transact SQL" title="Transact SQL de Microsoft SQL Server">
                         </div>
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/ionic.png" alt="logo Ionic">
+                            <img class="logo" src="resources/img/logos/LANG/PL_SQL.png" alt="logo PL SQL" title="PL SQL d'Oracle">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center competences_cadre">
-                <h3 class="col-sm-10 col-lg-4 m-0 text-center fs-5 py-2">ORM</h3>
-                <div class="contenu row col-sm-12 col-lg-8">
-                    <ul class="col-sm-12 col-lg-8 m-0 p-0 ps-4">
-                        <li>JPA 2 avec Hibernate 4.x</li>
-                        <li>Entity Framework</li>
-                        <li>Doctrine</li>
-                    </ul>
+            <div class="row d-flex justify-content-center align-items-center competences_cadre mb-4">
+                <h3 class="col-sm-12 col-lg-3 m-0 p-0 text-center fs-5 py-3">BASES DE DONNEES</h3>
+                <div class="contenu row col-sm-12 col-lg-9">
                     <div class="col-12 row m-0 mt-2 p-2">
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/hibernate.png" alt="hibernate" width="40px">
+                            <img class="logo" src="resources/img/logos/BDD/MSS.png" alt="logo Microsoft SQL Server" title="Microsoft SQL Server">
                         </div>
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/entity.png" alt="Entity Framework" width="40px">
+                            <img class="logo" src="resources/img/logos/BDD/Oracle.png" alt="logo Oracle" title="Oracle">
                         </div>
                         <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
-                            <img class="logo" src="resources/img/logos/doctrine.png" alt="doctrine" width="40px">
+                            <img class="logo" src="resources/img/logos/BDD/MySQL.png" alt="logo MySQL" title="MySQL">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center competences_cadre mb-4">
+                <h3 class="col-sm-12 col-lg-3 m-0 p-0 text-center fs-5 py-3">ENVIRONNEMENTS</h3>
+                <div class="contenu row col-sm-12 col-lg-9">
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ENV/eclipse.png" alt="logo Eclipse" title="Eclipse">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ENV/webstorm.png" alt="logo WebStorm" title="WebStorm">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ENV/PhpStorm.png" alt="logo PhpStorm" title="PhpStorm">
+                        </div>
+                    </div>
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ENV/NetBeans.png" alt="logo NetBeans" title="NetBeans">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ENV/Visual_Studio.png" alt="logo Visual Studio" title="Visual Studio">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ENV/Android_Studio.png" alt="logo Android Studio" title="Android Studio">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center competences_cadre mb-4">
+                <h3 class="col-sm-12 col-lg-3 m-0 p-0 text-center fs-5 py-3">PLATEFORMES / FRAMEWORKS</h3>
+                <div class="contenu row col-sm-12 col-lg-9">
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/Tomcat.png" alt="logo Tomcat" title="Java SE8 et EE7 avec Tomcat 8.5">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/spring.png" alt="logo spring" title="Spring (Core, ORM, Data, MVC, REST)">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/symfony.png" alt="logo Symfony" title="Symfony 3">
+                        </div>
+                    </div>
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/aspNet.png" alt="logo ASP net" title="ASP.NET MVC">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/Android.jpg" alt="logo Android" title="Mobile avec Android">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/bootstrap.jpg" alt="logo Bootstrap" title="Bootstrap">
+                        </div>
+                    </div>
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/JQuery.png" alt="logo Jquery" title="JQuery">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/Xamarin.png" alt="logo Xamarin" title="Xamarin">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/FRWK/ionic.png" alt="logo Ionic" title="Ionic">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center align-items-center competences_cadre mb-3">
+                <h3 class="col-sm-12 col-lg-3 m-0 p-0 text-center fs-5 py-3">ORM</h3>
+                <div class="contenu row col-sm-12 col-lg-9">
+                    <div class="col-12 row m-0 mt-2 p-2">
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ORM/hibernate.png" alt="hibernate" title="JPA2 avec Hibernate">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ORM/entity.png" alt="Entity Framework" title="Entity Framework">
+                        </div>
+                        <div class="col-4 m-0 p-2 d-flex align-items-center justify-content-center">
+                            <img class="logo" src="resources/img/logos/ORM/doctrine.png" alt="doctrine" title="Doctrine">
                         </div>
                     </div>
                 </div>
@@ -163,14 +221,14 @@
         </div>
     </div>
 
-    <div id="projets" class="row m-0 py-5 d-flex justify-content-center">
-        <div class="col-12 m-0 py-4">
+    <div id="projets" class="row m-0 p-0 py-5 d-flex justify-content-center">
+        <div class="col-12 m-0 p-0 py-4">
             <h2 class="col-12 text-center fs-2 m-0 py-4">- PROJETS -</h2>
         </div>
-        <div class="contenu col-sm-12 col-md-10 col-lg-8 m-0 p-3 row">
-            <div class="col-sm-12 col-lg-6 d-flex justify-content-center mb-2">
-                <div class="card col-12">
-                    <a href="#" style="text-decoration: none; color: black">
+        <div class="contenu col-sm-12 col-md-10 col-lg-9 m-0 p-3 row">
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center m-0 p-0 mb-4">
+                <div class="card col-11">
+                    <a href="#">
                         <img src="resources/img/encheres.png" class="card-img-top p-2" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Site d'enchères</h5>
@@ -182,9 +240,9 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-6 d-flex justify-content-center mb-2">
-                <div class="card col-12">
-                    <a href="#" style="text-decoration: none; color: black">
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center  m-0 p-0 mb-4">
+                <div class="card col-11">
+                    <a href="#">
                         <img src="resources/img/sorties.png" class="card-img-top p-2" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Site de sortie entre élèves</h5>
@@ -196,9 +254,9 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-6 d-flex justify-content-center mb-2">
-                <div class="card col-12">
-                    <a href="#" style="text-decoration: none; color: black">
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center  m-0 p-0 mb-4">
+                <div class="card col-11">
+                    <a href="#">
                         <img src="resources/img/portfolio.png" class="card-img-top p-2" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Mon portfolio</h5>
@@ -208,9 +266,9 @@
                     </a>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-6 d-flex justify-content-center mb-2">
-                <div class="card col-12">
-                    <a href="#" style="text-decoration: none; color: black">
+            <div class="col-sm-12 col-lg-6 d-flex justify-content-center m-0 p-0 mb-4">
+                <div class="card col-11">
+                    <a href="#">
                         <img src="resources/img/pec.png" class="card-img-top p-2" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Projet en cours : CV </h5>
