@@ -11,7 +11,7 @@ body{
 
 h2{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 /************************************ INTRO *****************************/
 #intro{
@@ -55,7 +55,7 @@ nav{
 #aPropos .contenu{
     color: gainsboro;
     background-color: #0b2e4e;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: start;
 }
 
@@ -86,7 +86,7 @@ nav{
     color : white;
     font-style: oblique;
     font-weight: bold;
-    font-size: 1.6em;
+    font-size: 1.5em;
     text-align: start;
 }
 
@@ -134,7 +134,7 @@ nav{
 
 #projets .contenu{
     color: #0b2e4e;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;;
 }
 
@@ -184,7 +184,7 @@ footer{
 
 @media all and (min-width:0px) and (max-width:767px){
 
-    #txt_intro{font-size:1.6em}
+    #txt_intro{font-size:1.5em}
 
     .navbar-dark .navbar-nav .nav-link{
         font-size: calc(1rem + 0.2vw) !important;
