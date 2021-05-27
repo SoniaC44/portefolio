@@ -7,13 +7,18 @@ body{
     height: 100%;
     margin: 0;
 }
+
+h2{
+    font-weight: bold;
+    font-size: 2em;
+}
 /************************************ INTRO *****************************/
 #intro{
     width: 100%;
     height: 100%;
 }
 #img_intro{
-    background-image: url(../img/Woman-working.png);
+    background-image: url(../resources/img/Woman-working.png);
     background-repeat: no-repeat;
     background-position: bottom;
     height: 65%;
@@ -22,24 +27,74 @@ body{
     background-size: contain;
 }
 #txt_intro {
-    height: 20%;
+    height: 25%;
     background: linear-gradient(white, #dbcdfe);
     color: #0b2e4e;
 }
 nav{
-    background-color: #381f7a;
-    height: 15%;
+    background-color: #0b2e4e;
+    height: 10%;
 }
 .navbar-dark .navbar-nav .nav-link{
     color: white;
-    border-bottom: 4px solid #381f7a;
+    border-bottom: 4px solid #0b2e4e;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
     color: #efb226;
     border-bottom: 4px solid #efb226;
 }
 
+/************************************ A PROPOS ***************************************/
+
+#aPropos {
+    background-color: #0b2e4e;
+    color: white;
+}
+
+#aPropos .contenu{
+    color: gainsboro;
+    background-color: #0b2e4e;
+    font-size: 1.3em;
+    text-align: start;
+}
+
+#aPropos a{
+    text-decoration: underline;
+    color: #efb226;
+    font-weight: bold;
+}
+
+#recherche_stage{
+    /*background-color: #8071f2;*/
+    color: white;
+    border-left: 8px solid #efb226;
+}
+
+#recherche_stage .bleu{
+    color: #3dc8e7;
+}
+
+#recherche_stage .bleu a{
+    color: #3dc8e7;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#recherche_stage .gros_italique{
+    color : white;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: start;
+}
+
+#recherche_stage .contact a{
+    padding: 10px;
+    border : 2px solid #efb226;
+}
+
 /*********************************** COMPETENCES **********************************/
+
 #competences {
     background-color: white;
     color: #0b2e4e;
@@ -65,30 +120,6 @@ nav{
     height: auto;
 }
 
-/************************************ A PROPOS ***************************************/
-
-#aPropos {
-    background-color: #381f7a;
-    color: white;
-}
-
-#aPropos .contenu{
-    color: gainsboro;
-    background-color: #381f7a;
-    font-size: 1.3em;
-    text-align: start;
-}
-
-#aPropos a{
-    text-decoration:none;
-    color: #efb226;
-}
-
-#recherche_stage{
-    background-color: #8071f2;
-    border-radius: 10px;
-}
-
 /*************************************** PROJETS ***********************************/
 
 #projets{
@@ -110,15 +141,14 @@ nav{
 /********************************************* CONTACT ***********************************/
 
 #contact{
-    background-color: #381f7a;
+    background-color: #f5f5fd;
 }
 #contact li{
     list-style-type: none;
-    color: white;
 }
 #contact li a{
     text-decoration: none;
-    color: white;
+    color: #3dc8e7;
 }
 #contact li a:hover{
     color: #efb226;
