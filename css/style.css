@@ -143,6 +143,12 @@ nav{
     color: #0b2e4e;
 }
 
+#projets .lien_github{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #efb226;
+    color: white;
+}
 /********************************************* CONTACT ***********************************/
 
 #contact{
@@ -178,6 +184,18 @@ footer{
 #lien_contact{
     text-decoration: none;
     color: #0b2e4e; !important;
+}
+/************************************* SPECIFIC JQUERY ****************************/
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
 }
 
 /************************************* MEDIA QUERIES *****************************/
