@@ -60,7 +60,7 @@ nav{
 }
 
 #aPropos a{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     color: #efb226;
     font-weight: bold;
 }
@@ -95,6 +95,13 @@ nav{
     border : 2px solid #efb226;
     border-radius: 10px;
     text-decoration: none;
+}
+
+#recherche_stage .bleu .validationsStage{
+    text-decoration: none;
+    padding: 10px;
+    border : 2px solid #3dc8e7;
+    border-radius: 10px;
 }
 
 /*********************************** COMPETENCES **********************************/
@@ -181,10 +188,6 @@ footer{
     width:55px;
 }
 
-#lien_contact{
-    text-decoration: none;
-    color: #0b2e4e; !important;
-}
 /************************************* SPECIFIC JQUERY ****************************/
 
 #lean_overlay {
