@@ -96,12 +96,21 @@ nav{
     border-radius: 10px;
     text-decoration: none;
 }
+#recherche_stage .contact :hover{
+    color : #0b2e4e;
+    background-color: #efb226;
+}
 
-#recherche_stage .bleu .validationsStage{
+#recherche_stage .bleu .validationsStage a{
     text-decoration: none;
     padding: 10px;
     border : 2px solid #3dc8e7;
     border-radius: 10px;
+}
+
+#recherche_stage .bleu .validationsStage a:hover{
+    background-color: #3dc8e7;
+    color : #0b2e4e;
 }
 
 /*********************************** COMPETENCES **********************************/
